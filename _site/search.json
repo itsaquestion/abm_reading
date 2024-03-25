@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html",
+    "href": "posts/JASS_2024_Q1/index.html",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "",
+    "text": "JASS Volume 27(1) published on 31-Jan-2024\n本期是“对价值建模”专刊（Modelling Values in Socio/Technical/Ecological Systems）"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#editorial-modelling-values-in-social-technical-and-ecological-systems",
+    "href": "posts/JASS_2024_Q1/index.html#editorial-modelling-values-in-social-technical-and-ecological-systems",
+    "title": "JASS 2024 Q1",
+    "section": "",
+    "text": "This editorial paper for the special section on “Modelling Values in Socio/Technical/Ecological Systems” introduces interdisciplinary perspectives on values and reflects on growing appeals for modelling values. In public and academic discourses, values typically relate to matters of importance (e.g., beliefs, priorities) and principles about what is considered to be good (e.g., moral values) and are often seen as shaping individual and collective behaviour. As shown by eight contributions to this special section, it is relevant for social simulation modelling to dive deeper into embedding values in models in order to explore behavioural change on different levels and across contexts. Our goal with this special section is to stimulate interest in developing various approaches that study and operationalise values in agent-based models to investigate the complex problems raised in social, socio-technical and socio-ecological systems. We conclude with a call for future research to be explicit in their modelling assumptions, thus fostering a vigorous foundation for scientific discourse."
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#polarization-on-social-media-micro-level-evidence-and-macro-level-implications",
+    "href": "posts/JASS_2024_Q1/index.html#polarization-on-social-media-micro-level-evidence-and-macro-level-implications",
+    "title": "JASS 2024 Q1",
+    "section": "",
+    "text": "略"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#raising-the-spectrum-of-polarization-generating-issue-alignment-with-a-weighted-balance-opinion-dynamics-model",
+    "href": "posts/JASS_2024_Q1/index.html#raising-the-spectrum-of-polarization-generating-issue-alignment-with-a-weighted-balance-opinion-dynamics-model",
+    "title": "JASS 2024 Q1",
+    "section": "",
+    "text": "略"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#validating-argument-based-opinion-dynamics-with-survey-experiments",
+    "href": "posts/JASS_2024_Q1/index.html#validating-argument-based-opinion-dynamics-with-survey-experiments",
+    "title": "JASS 2024 Q1",
+    "section": "",
+    "text": "略"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ABM Reading",
+    "section": "",
+    "text": "JASS 2024 Q1: “对价值建模”专刊\n\n\n\n\n\n\njasss\n\n\nabm\n\n\nissue scan\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nWeicheng Li\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#abstract",
+    "href": "posts/JASS_2024_Q1/index.html#abstract",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "1.1 Abstract",
+    "text": "1.1 Abstract\nThis editorial paper for the special section on “Modelling Values in Socio/Technical/Ecological Systems” introduces interdisciplinary perspectives on values and reflects on growing appeals for modelling values. In public and academic discourses, values typically relate to matters of importance (e.g., beliefs, priorities) and principles about what is considered to be good (e.g., moral values) and are often seen as shaping individual and collective behaviour. As shown by eight contributions to this special section, it is relevant for social simulation modelling to dive deeper into embedding values in models in order to explore behavioural change on different levels and across contexts. Our goal with this special section is to stimulate interest in developing various approaches that study and operationalise values in agent-based models to investigate the complex problems raised in social, socio-technical and socio-ecological systems. We conclude with a call for future research to be explicit in their modelling assumptions, thus fostering a vigorous foundation for scientific discourse."
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#abstract-1",
+    "href": "posts/JASS_2024_Q1/index.html#abstract-1",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "5.2 Abstract",
+    "text": "5.2 Abstract\nIn agent-based simulation methods and applications, discrete timestep approaches prevail. To support continuous-time agent-based simulation, we analyze how methods for simulating population-based Con-tinu-ous-Time Markov Chains (CMTCs) can be adopted and derive implications for the concrete realization. To corroborate our findings, we develop an efficient internal domain-specific language (DSL) based on ML3, a modeling language for linked lives in demography. The design as an internal DSL, implemented within the Rust programming language, allows the modeler to exploit the complete feature set of the host language, such as data types and structures, when programming decision processes. A concise and expressive modeling of an agent’s discrete decisions and behavior introducing exponentially distributed sojourn times can be supported by adapting the concept of guarded commands from population-based CTMCs. The execution of models relies on an optimized version of the direct method. This method is a variant of stochastic simulation algorithms, an established method for executing population-based CTMCs in other application areas, notably biochemistry. To efficiently handle the large set of possible transitions inherent to continuous-time agent-based models, we use a dependency graph whose updating scheme caters to the dynamic dependencies within agent-based models and the need for efficient implementation. The presented case studies include implementations of a continuous-time, agent-based migration model and a comparative performance study based on an extended SIR model of infection spread, allowing us to draw conclusions about the impact of different design choices on efficiency.\n在主体模拟方法和应用中,离散时间步方法占主导地位。为了支持连续时间主体模拟,我们分析了如何采用模拟基于人口的连续时间马尔可夫链(CMTCs)的方法,并推导出具体实现的启示。为了证实我们的发现,我们开发了一种基于ML3(一种用于人口统计学中关联生命建模的语言)的高效内部领域特定语言(DSL)。作为一种内部DSL,在Rust编程语言中实现,它允许建模者在编程决策过程时利用宿主语言的全部特性,如数据类型和结构。通过改编基于人口的CTMCs中的警戒命令概念,可以支持主体离散决策和行为的简洁而富有表现力的建模,引入指数分布的停留时间。模型的执行依赖于直接法的优化版本。这种方法是随机模拟算法的一个变体,是在其他应用领域(特别是生物化学)中执行基于人口的CTMCs的一种成熟方法。为了有效处理连续时间主体模型固有的大量可能转移,我们使用了一个依赖关系图,其更新方案迎合了主体模型内的动态依赖关系和高效实现的需求。所提供的案例研究包括一个连续时间、基于主体的迁移模型的实现,以及一个基于扩展SIR感染传播模型的比较性能研究,使我们能够得出关于不同设计选择对效率影响的结论。"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#takeaways",
+    "href": "posts/JASS_2024_Q1/index.html#takeaways",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "5.1 Takeaways",
+    "text": "5.1 Takeaways\n\n连续时间模型，看不懂。"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#abstract-2",
+    "href": "posts/JASS_2024_Q1/index.html#abstract-2",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "6.2 Abstract",
+    "text": "6.2 Abstract\nFor many applications of agent-based models (ABMs), an agent’s age influences important decisions (e.g. their contribution to/withdrawal from pension funds, their level of risk aversion in decision-making, etc.) and outcomes in their life cycle (e.g. their susceptibility to disease). These considerations make it crucial to accurately capture the age distribution of the population being considered. Often, empirical survival probabilities cannot be used in ABMs to generate the observed age structure. This may be due to discrepancies between samples (e.g. when empirical survival probabilities are calculated across the whole population, but only a sub-population is being modelled) or models (between the survival model underpinning the ABM and the statistical model used to produce empirical survival probabilities). In these cases, imputing empirical survival probabilities will not generate the observed age structure of the population, and assumptions such as exogenous agent inflows are required (but not necessarily empirically valid). In this paper, we propose a method that allows for the preservation of agent age-structure without the exogenous influx of agents, even when only a subset of the population is being modelled. We demonstrate the flexibility and accuracy of our methodology by performing simulations of several real-world age distributions. This method is a useful tool for those developing ABMs across a broad range of applications.\n在主体模型(ABMs)的许多应用中,主体的年龄会影响其生命周期中的重要决策(例如,他们对养老基金的贡献/提取,他们在决策中的风险厌恶程度等)和结果(例如,他们对疾病的易感性)。这些考虑使得准确捕捉所研究人群的年龄分布至关重要。通常,经验生存概率不能直接用于ABMs以生成观察到的年龄结构。这可能是由于样本之间的差异(例如,当经验生存概率是在整个人口中计算的,但只对一个子群体进行建模时)或模型之间的差异(在支撑ABM的生存模型和用于产生经验生存概率的统计模型之间)。在这些情况下,直接输入经验生存概率将无法生成观察到的人口年龄结构,需要假设外生的主体流入(但不一定具有经验验证性)。在本文中,我们提出了一种方法,即使只对人口的一个子集进行建模,也能在没有外生主体流入的情况下保持主体年龄结构。我们通过对几个真实世界的年龄分布进行模拟,证明了我们方法的灵活性和准确性。该方法是一个有用的工具,适用于在广泛的应用中开发ABMs的研究者。"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#takeaways-1",
+    "href": "posts/JASS_2024_Q1/index.html#takeaways-1",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "6.1 Takeaways",
+    "text": "6.1 Takeaways\n\n研究问题：如何用给定的生存率在ABM中生成和数据一致的人口结构，而不依赖外生的主体流入\n新方法\n代码：https://github.com/k3fair/agedist-gen\n第二作者Omar Guerrero，Head of Computational Social Science Research of The Alan Turing Institute，"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#abstract-3",
+    "href": "posts/JASS_2024_Q1/index.html#abstract-3",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "7.2 Abstract",
+    "text": "7.2 Abstract\nIdentity diversity（身份多样性） in teams brings advantages for complex decision-making because it is associated with cognitive diversity（认知多样性） among team members. At the same time, homophilous interactions along shared identity dimensions can hinder information exchange among dissimilar individuals and threaten successful exploitation of the team’s cognitive diversity. We present an agent-based model to investigate how homophily impacts decision-making quality in diverse teams. Team members communicate information in a ‘hidden profile’ setting where some pieces of information are known only to single individuals while other pieces of information are known to subgroups with the same identity. While intuition may suggest that homophily impairs collective decision-making, our model reveals how homophilous environments lead to better collective decisions: homophily fosters temporary disagreements between dissimilar team members, which grant teams additional time to uncover crucial information that would not have been shared otherwise. Longer discussion time comes along with improvements in the quality of the final decision, indicating a trade-off between the time needed to deliberate and decision quality.\n团队中的身份多样性为复杂决策带来优势,因为它与团队成员之间的认知多样性相关。同时,沿着共同的身份维度进行的同质性互动可能会阻碍不同个体之间的信息交流,并威胁到团队认知多样性的成功利用。我们提出了一个基于主体的模型来研究同质性如何影响多元化团队的决策质量。团队成员在一个”隐藏的概况”环境中传递信息,其中一些信息只有个别人知道,而另一些信息为具有相同身份的子群体所知。直觉可能表明同质性会损害集体决策,但我们的模型揭示了同质性环境如何导致更好的集体决策:同质性促进了不同团队成员之间的暂时分歧,这给予团队额外的时间来发现原本不会被分享的关键信息。更长的讨论时间伴随着最终决策质量的提高,表明deliberation所需时间与决策质量之间存在权衡。"
+  },
+  {
+    "objectID": "posts/JASS_2024_Q1/index.html#takeaways-2",
+    "href": "posts/JASS_2024_Q1/index.html#takeaways-2",
+    "title": "JASS 2024 Q1: “对价值建模”专刊",
+    "section": "7.1 Takeaways",
+    "text": "7.1 Takeaways\n\n研究问题：身份同质性 (homophily) 如何影响集体决策\n‘hidden profile’ setting：关键信息分散在不同成员手中,需要通过讨论整合信息\n研究结论：同质性反而有利于决策质量,因为它导致了不同群体之间暂时的意见分歧，并且存在讨论时间和决策质量。"
+  }
+]

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Weicheng Li">
+<meta name="dcterms.date" content="2024-03-25">
+
+<title>ABM Reading - JASS 2024 Q1: “对价值建模”专刊</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">ABM Reading</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">JASS 2024 Q1: “对价值建模”专刊</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">jasss</div>
+                <div class="quarto-category">abm</div>
+                <div class="quarto-category">issue scan</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Weicheng Li </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 25, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>JASS Volume 27(1) published on 31-Jan-2024</p>
+<p>本期是“对价值建模”专刊（Modelling Values in Socio/Technical/Ecological Systems）</p>
+<section id="editorial-modelling-values-in-social-technical-and-ecological-systems" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Editorial: Modelling Values in Social, Technical, and Ecological Systems</h1>
+<section id="abstract" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="abstract"><span class="header-section-number">1.1</span> Abstract</h2>
+<p>This editorial paper for the special section on “Modelling Values in Socio/Technical/Ecological Systems” introduces interdisciplinary perspectives on values and reflects on growing appeals for modelling values. In public and academic discourses, values typically relate to matters of importance (e.g., beliefs, priorities) and principles about what is considered to be good (e.g., moral values) and are often seen as shaping individual and collective behaviour. As shown by eight contributions to this special section, it is relevant for social simulation modelling to dive deeper into embedding values in models in order to explore behavioural change on different levels and across contexts. Our goal with this special section is to stimulate interest in developing various approaches that study and operationalise values in agent-based models to investigate the complex problems raised in social, socio-technical and socio-ecological systems. We conclude with a call for future research to be explicit in their modelling assumptions, thus fostering a vigorous foundation for scientific discourse.</p>
+</section>
+</section>
+<section id="polarization-on-social-media-micro-level-evidence-and-macro-level-implications" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Polarization on Social Media: Micro-Level Evidence and Macro-Level Implications</h1>
+<p>略</p>
+</section>
+<section id="raising-the-spectrum-of-polarization-generating-issue-alignment-with-a-weighted-balance-opinion-dynamics-model" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Raising the Spectrum of Polarization: Generating Issue Alignment with a Weighted Balance Opinion Dynamics Model</h1>
+<p>略</p>
+</section>
+<section id="validating-argument-based-opinion-dynamics-with-survey-experiments" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Validating Argument-Based Opinion Dynamics with Survey Experiments</h1>
+<p>略</p>
+</section>
+<section id="a-fast-embedded-language-for-continuous-time-agent-based-simulation" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> A Fast Embedded Language for Continuous-Time Agent-Based Simulation</h1>
+<section id="takeaways" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="takeaways"><span class="header-section-number">5.1</span> Takeaways</h2>
+<ol type="1">
+<li>连续时间模型，看不懂。</li>
+</ol>
+</section>
+<section id="abstract-1" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="abstract-1"><span class="header-section-number">5.2</span> Abstract</h2>
+<p>In agent-based simulation methods and applications, discrete timestep approaches prevail. To support continuous-time agent-based simulation, we analyze how methods for simulating population-based Con-tinu-ous-Time Markov Chains (CMTCs) can be adopted and derive implications for the concrete realization. To corroborate our findings, we develop an efficient internal domain-specific language (DSL) based on ML3, a modeling language for linked lives in demography. The design as an internal DSL, implemented within the Rust programming language, allows the modeler to exploit the complete feature set of the host language, such as data types and structures, when programming decision processes. A concise and expressive modeling of an agent’s discrete decisions and behavior introducing exponentially distributed sojourn times can be supported by adapting the concept of guarded commands from population-based CTMCs. The execution of models relies on an optimized version of the direct method. This method is a variant of stochastic simulation algorithms, an established method for executing population-based CTMCs in other application areas, notably biochemistry. To efficiently handle the large set of possible transitions inherent to continuous-time agent-based models, we use a dependency graph whose updating scheme caters to the dynamic dependencies within agent-based models and the need for efficient implementation. The presented case studies include implementations of a continuous-time, agent-based migration model and a comparative performance study based on an extended SIR model of infection spread, allowing us to draw conclusions about the impact of different design choices on efficiency.</p>
+<p>在主体模拟方法和应用中,离散时间步方法占主导地位。为了支持连续时间主体模拟,我们分析了如何采用模拟基于人口的连续时间马尔可夫链(CMTCs)的方法,并推导出具体实现的启示。为了证实我们的发现,我们开发了一种基于ML3(一种用于人口统计学中关联生命建模的语言)的高效内部领域特定语言(DSL)。作为一种内部DSL,在Rust编程语言中实现,它允许建模者在编程决策过程时利用宿主语言的全部特性,如数据类型和结构。通过改编基于人口的CTMCs中的警戒命令概念,可以支持主体离散决策和行为的简洁而富有表现力的建模,引入指数分布的停留时间。模型的执行依赖于直接法的优化版本。这种方法是随机模拟算法的一个变体,是在其他应用领域(特别是生物化学)中执行基于人口的CTMCs的一种成熟方法。为了有效处理连续时间主体模型固有的大量可能转移,我们使用了一个依赖关系图,其更新方案迎合了主体模型内的动态依赖关系和高效实现的需求。所提供的案例研究包括一个连续时间、基于主体的迁移模型的实现,以及一个基于扩展SIR感染传播模型的比较性能研究,使我们能够得出关于不同设计选择对效率影响的结论。</p>
+</section>
+</section>
+<section id="a-method-for-emerging-empirical-age-structures-in-agent-based-models-with-exogenous-survival-probabilities" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> A Method for Emerging Empirical Age Structures in Agent-Based Models with Exogenous Survival Probabilities</h1>
+<section id="takeaways-1" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="takeaways-1"><span class="header-section-number">6.1</span> Takeaways</h2>
+<ol type="1">
+<li>研究问题：如何用给定的生存率在ABM中生成和数据一致的人口结构，而不依赖外生的主体流入</li>
+<li>新方法</li>
+<li>代码：https://github.com/k3fair/agedist-gen</li>
+<li>第二作者Omar Guerrero，Head of Computational Social Science Research of The Alan Turing Institute，</li>
+</ol>
+</section>
+<section id="abstract-2" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="abstract-2"><span class="header-section-number">6.2</span> Abstract</h2>
+<p>For many applications of agent-based models (ABMs), an agent’s age influences important decisions (e.g.&nbsp;their contribution to/withdrawal from pension funds, their level of risk aversion in decision-making, etc.) and outcomes in their life cycle (e.g.&nbsp;their susceptibility to disease). These considerations make it crucial to accurately capture the age distribution of the population being considered. <strong>Often, empirical survival probabilities cannot be used in ABMs to generate the observed age structure.</strong> This may be due to discrepancies between samples (e.g.&nbsp;when empirical survival probabilities are calculated across the whole population, but only a sub-population is being modelled) or models (between the survival model underpinning the ABM and the statistical model used to produce empirical survival probabilities). In these cases, <strong>imputing empirical survival probabilities will not generate the observed age structure of the population, and assumptions such as exogenous agent inflows are required (but not necessarily empirically valid)</strong>. In this paper, we propose a method that allows for the preservation of agent age-structure without the exogenous influx of agents, even when only a subset of the population is being modelled. We demonstrate the flexibility and accuracy of our methodology by performing simulations of several real-world age distributions. This method is a useful tool for those developing ABMs across a broad range of applications.</p>
+<p>在主体模型(ABMs)的许多应用中,主体的年龄会影响其生命周期中的重要决策(例如,他们对养老基金的贡献/提取,他们在决策中的风险厌恶程度等)和结果(例如,他们对疾病的易感性)。这些考虑使得准确捕捉所研究人群的年龄分布至关重要。通常,经验生存概率不能直接用于ABMs以生成观察到的年龄结构。这可能是由于样本之间的差异(例如,当经验生存概率是在整个人口中计算的,但只对一个子群体进行建模时)或模型之间的差异(在支撑ABM的生存模型和用于产生经验生存概率的统计模型之间)。在这些情况下,直接输入经验生存概率将无法生成观察到的人口年龄结构,需要假设外生的主体流入(但不一定具有经验验证性)。在本文中,我们提出了一种方法,即使只对人口的一个子集进行建模,也能在没有外生主体流入的情况下保持主体年龄结构。我们通过对几个真实世界的年龄分布进行模拟,证明了我们方法的灵活性和准确性。该方法是一个有用的工具,适用于在广泛的应用中开发ABMs的研究者。</p>
+</section>
+</section>
+<section id="talk-less-to-strangers-how-homophily-can-improve-collective-decision-making-in-diverse-teams" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Talk Less to Strangers: How Homophily Can Improve Collective Decision-Making in Diverse Teams</h1>
+<p>少与陌生人交谈:同质性如何提高多元化团队的集体决策</p>
+<section id="takeaways-2" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="takeaways-2"><span class="header-section-number">7.1</span> Takeaways</h2>
+<ol type="1">
+<li>研究问题：身份同质性 (homophily) 如何影响集体决策</li>
+<li>‘hidden profile’ setting：关键信息分散在不同成员手中,需要通过讨论整合信息</li>
+<li>研究结论：同质性反而有利于决策质量,因为它导致了不同群体之间暂时的意见分歧，并且存在讨论时间和决策质量。</li>
+</ol>
+</section>
+<section id="abstract-3" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="abstract-3"><span class="header-section-number">7.2</span> Abstract</h2>
+<p>Identity diversity（身份多样性） in teams brings advantages for complex decision-making because it is associated with cognitive diversity（认知多样性） among team members. At the same time, homophilous interactions along shared identity dimensions can hinder information exchange among dissimilar individuals and threaten successful exploitation of the team’s cognitive diversity. We present an agent-based model to investigate how homophily impacts decision-making quality in diverse teams. Team members communicate information in a ‘hidden profile’ setting where some pieces of information are known only to single individuals while other pieces of information are known to subgroups with the same identity. While intuition may suggest that homophily impairs collective decision-making, our model reveals how homophilous environments lead to better collective decisions: homophily fosters temporary disagreements between dissimilar team members, which grant teams additional time to uncover crucial information that would not have been shared otherwise. Longer discussion time comes along with improvements in the quality of the final decision, indicating a trade-off between the time needed to deliberate and decision quality.</p>
+<p>团队中的身份多样性为复杂决策带来优势,因为它与团队成员之间的认知多样性相关。同时,沿着共同的身份维度进行的同质性互动可能会阻碍不同个体之间的信息交流,并威胁到团队认知多样性的成功利用。我们提出了一个基于主体的模型来研究同质性如何影响多元化团队的决策质量。团队成员在一个”隐藏的概况”环境中传递信息,其中一些信息只有个别人知道,而另一些信息为具有相同身份的子群体所知。直觉可能表明同质性会损害集体决策,但我们的模型揭示了同质性环境如何导致更好的集体决策:同质性促进了不同团队成员之间的暂时分歧,这给予团队额外的时间来发现原本不会被分享的关键信息。更长的讨论时间伴随着最终决策质量的提高,表明deliberation所需时间与决策质量之间存在权衡。</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
