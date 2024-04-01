@@ -1,5 +1,5 @@
 ---
-title: "(2021) Long-Term Dynamics of Institutions: Using ABM as a Complementary Tool to Support Theory Development in Historical Studies"
+title: "(JASSS 2021) Long-Term Dynamics of Institutions: Using ABM as a Complementary Tool to Support Theory Development in Historical Studies"
 author: "Weicheng Li"
 date: "2024-03-26"
 categories: [jasss, Institutional Modelling, Historical Data, CPRs, Institutional Evolution]

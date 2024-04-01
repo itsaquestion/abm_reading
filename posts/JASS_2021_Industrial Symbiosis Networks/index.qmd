@@ -1,5 +1,5 @@
 ---
-title: "(2021) Actor Behaviour and Robustness of Industrial Symbiosis Networks: An Agent-Based Modelling Approach"
+title: "(JASSS 2021) Actor Behaviour and Robustness of Industrial Symbiosis Networks: An Agent-Based Modelling Approach"
 author: "Weicheng Li"
 date: "2024-03-26"
 categories: [jasss, Circular Economy, Industrial Symbiosis, Cooperative Networks, Theory of Planned Behaviour, Eco-Oriented Behaviour]
