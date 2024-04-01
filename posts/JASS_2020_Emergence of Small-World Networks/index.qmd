@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2020) Emergence of Small-World Networks in an Overlapping-Generations Model of Social Dynamics, Trust and Economic Performance"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss, Best Practice, Simulation Model, Standardization, Documentation]
+#image: "image.jpg"
+draft: false
+---
+
+# Emergence of Small-World Networks in an Overlapping-Generations Model of Social Dynamics, Trust and Economic Performance
+
+## Abstract
+
+We study the impact of endogenous creation and destruction of social ties in an artificial society on aggregate outcomes such as generalized trust, willingness to cooperate, social utility and economic performance. To this end we put forward a computational multi-agent model where agents of overlapping generations interact in a dynamically evolving social network. In the model, four distinct dimensions of individuals’ social capital: degree, centrality, heterophilous and homophilous interactions, determine their generalized trust and willingness to cooperate, altogether helping them achieve certain levels of social utility (i.e., utility from social contacts) and economic performance. We find that the stationary state of the simulated social network exhibits realistic small-world topology. We also observe that societies whose social networks are relatively frequently reconfigured, display relatively higher generalized trust, willingness to cooperate, and economic performance – at the cost of lower social utility. Similar outcomes are found for societies where social tie dissolution is relatively weakly linked to family closeness.

@@ -1,0 +1,15 @@
+---
+title: "Housing Market Agent-Based Simulation with Loan-To-Value and Debt-To-Income"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss, Housing Market, Macro-Prudential Policy, Loan-To-Value, Debt-To-Income, Policy Impact Analysis]
+#image: "image.jpg"
+draft: false
+---
+
+# Housing Market Agent-Based Simulation with Loan-To-Value and Debt-To-Income 
+
+## Abstract
+
+This paper introduces an agent-based model of a housing market with macro-prudential policy experiments. Specifically, the simulation model is used to examine the effects of a policy setting on loan-to-value (LTV) and debt-to-income (DTI), which are policy instruments several governments use to regulate the housing market. The simulation model illustrates the interactions among the households, the house suppliers, and the real estate brokers. We model each household in the population as either seller or buyer, and some of households may behave as speculators in the housing market. To better understand the impact of the policies, we used the real-world observations from the Korean housing market, which include various economic conditions, policy variables, and Korean census data. Our baseline model is quantitatively validated to the price index and the transaction volume of the past Korean housing market. After validation, we show the empirical effectiveness of setting LTV and DTI towards house prices, transaction volumes, and the amount of households' mortgages. Furthermore, we investigate the simulation results for the owner-occupier rate of households. These investigations provide the policy analyses in Korea's housing market, and other governments with LTV and DTI regulations.
+

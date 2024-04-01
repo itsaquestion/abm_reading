@@ -1,0 +1,13 @@
+---
+title: "(JASSS 2021) Finding Core Members of Cooperative Games Using Agent-Based Modeling "
+date: "2024-03-29"
+categories: [jasss, Cooperative Game Theory, Modeling and Simulation, Cooperative Games]
+#image: "image.jpg"
+draft: false
+---
+
+# Finding Core Members of Cooperative Games Using Agent-Based Modeling
+
+## Abstract
+
+Agent-based modeling (ABM) is a powerful paradigm to gain insight into social phenomena. One area that ABM has rarely been applied is coalition formation. Traditionally, coalition formation is modelled using cooperative game theory. In this paper, a heuristic algorithm, which can be embedded into an ABM to allow the agents to find a coalition, is described. Our heuristic algorithm combines agent-based modeling and cooperative game theory to help find agent partitions that are members of a games' core solutions (if they exist). The accuracy of our heuristic algorithm can be determined by comparing its outcomes to the actual core solutions. This comparison is achieved by developing an experiment that uses a specific example of a cooperative game called the glove game. The glove game is a type of market economy game. Finding the traditional cooperative game solutions is computationally intensive for large numbers of players because each possible partition must be compared to each possible coalition to determine the core set; hence our experiment only considers up to nine-player games. The results indicate that our heuristic approach achieves a core solution over 90% of the games considered in our experiment.

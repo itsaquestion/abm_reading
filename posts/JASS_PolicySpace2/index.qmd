@@ -1,0 +1,17 @@
+---
+title: "PolicySpace2: Modeling Markets and Endogenous Public Policies"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss, PolicySpace2]
+#image: "image.jpg"
+draft: false
+---
+
+# PolicySpace2: Modeling Markets and Endogenous Public Policies
+
+PolicySpace2:模拟市场和内生公共政策
+
+## Abstract
+Policymakers' role in decision making on alternative policies is facing restricted budgets and an uncertain future. The need to decide on priorities and handle effects across policies has made their task even more difficult. For instance, housing policies involve heterogeneous characteristics of the properties themselves and the intricacy of housing markets within the spatial context of cities. Here, we have proposed PolicySpace2 (PS2) as an adapted and extended version of the open source PolicySpace agent-based model. PS2 is a computer simulation that relies on empirically detailed spatial data to model real estate, along with labor, credit, and goods and services markets. Interaction among workers, firms, a bank, households and municipalities follow the literature benchmarks by integrating economic, spatial and transport research. PS2 is applied here as a comparison of three competing public policies aimed at reducing inequality and alleviating poverty: (a) house acquisition by the government and distribution to lower income households, (b) rental vouchers and (c) monetary aid. Within the model context, monetary aid, that is smaller amounts of help for a larger number of households, improves the economy in terms of production, consumption, reduction of inequality and maintenance of financial duties. PS2 is also a framework that can be further adapted to a number of related research questions.
+
+决策者在面对有限预算和不确定未来时,在替代政策的决策中发挥着重要作用。需要决定优先事项并处理跨政策的影响,使他们的任务更加困难。例如,住房政策涉及房产本身的异质特征以及城市空间背景下住房市场的复杂性。在这里,我们提出了PolicySpace2(PS2)作为开源PolicySpace主体模型的改编和扩展版本。PS2是一个计算机模拟,它依赖于经验详细的空间数据来模拟房地产、劳动力、信贷以及商品和服务市场。工人、企业、银行、家庭和市政府之间的互动遵循文献基准,整合了经济、空间和交通研究。PS2在这里被应用于比较三个旨在减少不平等和缓解贫困的竞争性公共政策:(a)政府收购房屋并分配给低收入家庭,(b)租金补贴,以及(c)货币援助。在模型背景下,货币援助,即为更多家庭提供较少数量的帮助,在生产、消费、减少不平等和维持财务责任方面改善了经济。PS2也是一个框架,可以进一步适应许多相关的研究问题。

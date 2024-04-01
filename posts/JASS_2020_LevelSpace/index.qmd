@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2020) LevelSpace: A NetLogo Extension for Multi-Level Agent-Based Modeling"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss, Multi-Level, Modeling Tools, Netlogo]
+#image: "image.jpg"
+draft: false
+---
+
+# Calibrating Agent-Based Models with Linear Regressions
+
+## Abstract
+
+Multi-Level Agent-Based Modeling (ML-ABM) has been receiving increasing attention in recent years. In this paper we present LevelSpace, an extension that allows modelers to easily build ML-ABMs in the popular and widely used NetLogo language. We present the LevelSpace framework and its associated programming primitives. Based on three common use-cases of ML-ABM – coupling of heterogenous models, dynamic adaptation of detail, and cross-level interaction - we show how easy it is to build ML-ABMs with LevelSpace. We argue that it is important to have a unified conceptual language for describing LevelSpace models, and present six dimensions along which models can differ, and discuss how these can be combined into a variety of ML-ABM types in LevelSpace. Finally, we argue that future work should explore the relationships between these six dimensions, and how different configurations of them might be more or less appropriate for particular modeling tasks.

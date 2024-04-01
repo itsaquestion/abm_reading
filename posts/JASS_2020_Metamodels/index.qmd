@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2020) Metamodels for Evaluating, Calibrating and Applying Agent-Based Models: A Review"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss,  Surrogate Model, Emulator, Calibration, Sensitivity Analysis, Review]
+#image: "image.jpg"
+draft: false
+---
+
+# Metamodels for Evaluating, Calibrating and Applying Agent-Based Models: A Review
+
+## Abstract
+
+The recent advancement of agent-based modeling is characterized by higher demands on the parameterization, evaluation and documentation of these computationally expensive models. Accordingly, there is also a growing request for "easy to go" applications just mimicking the input-output behavior of such models. Metamodels are being increasingly used for these tasks. In this paper, we provide an overview of common metamodel types and the purposes of their usage in an agent-based modeling context. To guide modelers in the selection and application of metamodels for their own needs, we further assessed their implementation effort and performance. We performed a literature research in January 2019 using four different databases. Five different terms paraphrasing metamodels (approximation, emulator, meta-model, metamodel and surrogate) were used to capture the whole range of relevant literature in all disciplines. All metamodel applications found were then categorized into specific metamodel types and rated by different junior and senior researches from varying disciplines (including forest sciences, landscape ecology, or economics) regarding the implementation effort and performance. Specifically, we captured the metamodel performance according to (i) the consideration of uncertainties, (ii) the suitability assessment provided by the authors for the particular purpose, and (iii) the number of valuation criteria provided for suitability assessment. We selected 40 distinct metamodel applications from studies published in peer-reviewed journals from 2005 to 2019. These were used for the sensitivity analysis, calibration and upscaling of agent-based models, as well to mimic their prediction for different scenarios. This review provides information about the most applicable metamodel types for each purpose and forms a first guidance for the implementation and validation of metamodels for agent-based models.

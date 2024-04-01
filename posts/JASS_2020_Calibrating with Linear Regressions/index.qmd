@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2020) Calibrating Agent-Based Models with Linear Regressions"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss, Indirect Inference, Estimation, Calibration, Simulated Minimum Distance, Approximate Bayesian Computation]
+#image: "image.jpg"
+draft: false
+---
+
+# Calibrating Agent-Based Models with Linear Regressions
+
+## Abstract
+
+In this paper, we introduce a simple way to parametrize simulation models by using regularized linear regression. Regressions bypass the three major challenges of calibrating by minimization: selecting the summary statistics, defining the distance function and minimizing it numerically. By substituting regression with classification, we can extend this approach to model selection. We present five example estimations: a statistical fit, a biological individual-based model, a simple real business cycle model, a non-linear biological simulation and heuristics selection in a fishery agent-based model. The outcome is a method that automatically chooses summary statistics, weighs them and uses them to parametrize models without running any direct minimization.

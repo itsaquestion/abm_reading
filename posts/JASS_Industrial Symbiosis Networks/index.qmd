@@ -1,0 +1,18 @@
+---
+title: "Actor Behaviour and Robustness of Industrial Symbiosis Networks: An Agent-Based Modelling Approach"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jasss, Circular Economy, Industrial Symbiosis, Cooperative Networks, Theory of Planned Behaviour, Eco-Oriented Behaviour]
+#image: "image.jpg"
+draft: false
+---
+
+# Actor Behaviour and Robustness of Industrial Symbiosis Networks: An Agent-Based Modelling Approach
+
+主体行为与产业共生网络的稳健性:一个基于主体建模的方法
+
+## Abstract
+
+Industrial Symbiosis Networks (ISNs) consist of firms that exchange residual materials and energy locally, in order to gain economic, environmental and/or social advantages. In practice, ISNs regularly fail when partners leave and the recovery of residual streams ends. Regarding the current societal need for a shift towards sustainability, it is undesirable that ISNs should fail. Failures of ISNs may be caused by actor behaviour that leads to unanticipated economic losses. In this paper, we explore the effect of these behaviours on ISN robustness by using an agent-based model (ABM). The constructed model is based on insights from both literature and participatory modelling in three real-world cases. It simulates the implementation of synergies for local waste exchange and compost production. The Theory of Planned Behaviour (TPB) was used to model agent behaviour in time-dependent bilateral negotiations and synergy evaluation processes. We explored model behaviour with and without TPB logic across a range of possible TPB input variables. The simulation results show how the modelled planned behaviour affects the cash flow outcomes of the social agents and the robustness of the network. The study contributes to the theoretical development of industrial symbiosis research by providing a quantitative model of all ISN implementation stages, in which various behavioural patterns of entrepreneurs are included. It also contributes to practice by offering insights on how network dynamics and robustness outcomes are not only related to context and ISN design, but also to actor behaviour.
+
+产业共生网络(ISNs)由在本地交换剩余物料和能源的公司组成,以获得经济、环境和/或社会优势。在实践中,当合作伙伴离开且剩余物料流的回收终止时,ISNs经常失败。考虑到当前社会向可持续性转变的需求,ISNs的失败是不可取的。ISNs的失败可能是由导致意外经济损失的主体行为引起的。在本文中,我们使用基于主体的模型(ABM)探讨了这些行为对ISN稳健性的影响。构建的模型基于文献和三个真实案例中的参与式建模的见解。它模拟了本地废物交换和堆肥生产协同效应的实施。计划行为理论(TPB)被用于模拟主体在时间依赖的双边谈判和协同评估过程中的行为。我们探索了有无TPB逻辑的模型行为,涵盖了一系列可能的TPB输入变量。仿真结果表明,模拟的计划行为如何影响社会主体的现金流结果和网络的稳健性。该研究通过提供一个包含企业家各种行为模式的ISN实施所有阶段的定量模型,为产业共生研究的理论发展做出了贡献。它还通过提供洞见,说明网络动态和稳健性结果不仅与背景和ISN设计有关,而且与主体行为有关,从而为实践做出了贡献。

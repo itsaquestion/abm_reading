@@ -2,6 +2,16 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/JASS_2021_Core Members/index.html",
+      "/posts/JASS_Housing Market LTV/index.html",
+      "/posts/JASS_PolicySpace2/index.html",
+      "/posts/JASS_2020_Calibrating with Linear Regressions/index.html",
+      "/posts/JASS_Long-Term Dynamics of Institutions/index.html",
+      "/posts/JASS_2020_Metamodels/index.html",
+      "/posts/JASS_2020_Emergence of Small-World Networks/index.html",
+      "/posts/JASS_Industrial Symbiosis Networks/index.html",
+      "/posts/JASS_2020_LevelSpace/index.html",
+      "/posts/JASS_2020_ODD/index.html",
       "/posts/JASS_2024_Q1/index.html"
     ]
   }

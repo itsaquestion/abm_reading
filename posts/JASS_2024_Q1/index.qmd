@@ -2,7 +2,7 @@
 title: "JASS 2024 Q1: “对价值建模”专刊"
 author: "Weicheng Li"
 date: "2024-03-25"
-categories: [jasss, abm, issue scan]
+categories: [jasss, issue scan]
 #image: "image.jpg"
 draft: false
 ---
