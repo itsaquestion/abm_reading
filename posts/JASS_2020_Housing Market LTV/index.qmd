@@ -1,5 +1,5 @@
 ---
-title: "Housing Market Agent-Based Simulation with Loan-To-Value and Debt-To-Income"
+title: "(2020) Housing Market Agent-Based Simulation with Loan-To-Value and Debt-To-Income"
 author: "Weicheng Li"
 date: "2024-03-26"
 categories: [jasss, Housing Market, Macro-Prudential Policy, Loan-To-Value, Debt-To-Income, Policy Impact Analysis]

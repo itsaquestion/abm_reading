@@ -1,8 +1,8 @@
 ---
-title: "PolicySpace2: Modeling Markets and Endogenous Public Policies"
+title: "(2022) PolicySpace2: Modeling Markets and Endogenous Public Policies"
 author: "Weicheng Li"
 date: "2024-03-26"
-categories: [jasss, PolicySpace2]
+categories: [jasss, Public Policies, Real Estate Market, Spatial Analysis, Metropolitan Regions]
 #image: "image.jpg"
 draft: false
 ---
