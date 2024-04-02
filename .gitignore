@@ -1,5 +1,6 @@
 _book/
 # quarto ================
+_site
 *_files/
 .quarto/
 .sync.sh.swp
