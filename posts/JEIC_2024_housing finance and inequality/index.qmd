@@ -1,0 +1,20 @@
+---
+title: "(JEIC 2014) The relationship between housing finance and inequality"
+author: "Weicheng Li"
+date: "2024-03-26"
+categories: [jeic,Housing finance,
+Macroprudential policy,
+Monetary policy,
+Wealth inequality,
+Korean housing market]
+#image: "image.jpg"
+draft: false
+---
+
+# The relationship between housing finance and inequality
+
+![url](https://link.springer.com/article/10.1007/s11403-024-00405-3)
+
+## Abstract
+
+This study analyzes the Korean housing market using an agent-based simulation from financial and societal perspectives. We initialize heterogeneous household agents using microlevel household survey data from Korea, and we model housing decisions and interactions through a simulated market. First, we validate and calibrate the model to reproduce real-world observations and several stylized facts about the Korean housing market. Then, we conduct a policy experiment to determine the impact of changes in the quantity and cost of housing finance on households’ living conditions and wealth inequality. As proxies for the quantity of housing finance, we adopt the loan-to-value and debt-to-income regulation ratios, classified as macroprudential policy, which are the leverage measures used by the Korean government. The interest rate, one of the levers of monetary policy, is also used as a proxy for housing finance costs. The results of the policy experiment confirm that the quantitative expansion of housing finance provides more benefits to high-income households, thereby worsening wealth inequality. In addition, we find that an increase in housing finance costs lowers the incentive to speculate on housing, but this speculation does not improve the housing status of middle-income households. Finally, we demonstrate that macroprudential policies mitigate the exacerbation of wealth inequality in a relaxed monetary policy state.
