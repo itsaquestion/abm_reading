@@ -1,7 +1,7 @@
 ---
-title: "(JEIC 2014) The relationship between housing finance and inequality"
+title: "(JEIC 2024) The relationship between housing finance and inequality"
 author: "Weicheng Li"
-date: "2024-03-26"
+date: "2024-04-02"
 categories: [jeic,Housing finance,
 Macroprudential policy,
 Monetary policy,
