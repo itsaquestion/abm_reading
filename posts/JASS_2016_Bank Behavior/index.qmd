@@ -1,0 +1,13 @@
+---
+title: "(JASSS 2016) Long Term Impacts of Bank Behavior on Financial Stability. An Agent Based Modeling Approach"
+author: "Weicheng Li"
+date: "2024-04-02"
+categories: [jasss, Credit Networks, Financial Stability]
+#image: "image.jpg"
+draft: false
+---
+
+# Long Term Impacts of Bank Behavior on Financial Stability. An Agent Based Modeling Approach
+
+## Abstract
+This paper presents an agent-based model aiming to shed light on the potential destabilizing effects of bank behavior. Our work takes its motivation from the effects of the financial crisis which erupted in 2007 in the US. It draws on the Financial Instability Hypothesis by Hyman P. Minsky, and on the Agent Based macro modeling literature (Delli Gatti et al. 2010, Riccetti et. al 2013) to model a simplified economy in which heterogeneous banks and firms interact on game theoretic rules. Simulation results suggest that aggregate financial instability may emerge as the outcome of banks’ attempt to increase their profit or market share through their pricing strategies. A further finding from the model is the need for banks to take into account time consistency when issuing credit in order to protect the financial stability of the system.

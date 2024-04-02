@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2017) R&D Subsidization Effect and Network Centralization: Evidence from an Agent-Based Micro-Policy Simulation"
+author: "Weicheng Li"
+date: "2024-04-02"
+categories: [jasss, R&D Policy, Networks, Complexity, Social Simulation]
+#image: "image.jpg"
+draft: false
+---
+
+# R&D Subsidization Effect and Network Centralization: Evidence from an Agent-Based Micro-Policy Simulation
+
+## Abstract
+
+This paper presents an agent-based micro-policy simulation model assessing public R&D policy effect when R&D and non-R&D performing companies are located within a network. We set out by illustrating the behavioural structure and the computational logic of the proposed model; then, we provide a simulation experiment where the pattern of the total level of R&D activated by a fixed amount of public support is analysed as function of companies’ network topology. More specifically, the suggested simulation experiment shows that a larger “hubness” of the network is more likely accompanied with a decreasing median of the aggregated total R&D performance of the system. Since the aggregated firm idiosyncratic R&D (i.e., the part of total R&D independent of spillovers) is slightly increasing, we conclude that positive cross-firm spillover effects - in the presence of a given amount of support - have a sizeable impact within less centralized networks, where fewer hubs emerge. This may question the common wisdom suggesting that larger R&D externality effects should be more likely to arise when few central champions receive a support.
