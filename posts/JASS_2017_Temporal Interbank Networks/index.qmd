@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2017) A Simulation Tool for Exploring the Evolution of Temporal Interbank Networks "
+author: "Weicheng Li"
+date: "2024-04-02"
+categories: [jasss, Interbank Network, Emergent Behavior, Topology Formation, Temporal Network, Complex System, Simulation Tool]
+#image: "image.jpg"
+draft: false
+---
+
+# A Simulation Tool for Exploring the Evolution of Temporal Interbank Networks 
+
+## Abstract
+
+The topology of the interbank market plays a crucial role during a crisis, affecting the spreading or absorption of financial shock. The structure of an interbank network changes in the process of its evolution because of the interbank interactions and the interactions between banks and customers. To simulate a temporal interbank network, it is necessary to set an initial state and an evolution law for the topology and system entities. Because of the complex interplay between the network topology and the bank states, the stability of a temporal interbank network is generally unpredictable, even if all parameters and rules of interactions are known. In this paper, we present a simulation tool for temporal interbank networks aimed at exploring the different drivers contributing to evolutionary dynamics of banking networks. We describe a general-simulation scheme for temporal interbank networks and incorporate the creation and rewiring of edges because of the counter-party choices with the deletion of nodes and edges in case of a bank default. An example of the implementation of the general scheme is also presented and include models of banks and customers, strategies of counter-party choice, and clearing algorithms. To perform a qualitative and quantitative study of the evolutionary process, the proposed simulation tool supports the calculation of different topological and stability metrics and visualization of network evolution. The experimental study demonstrates (i) an illustrative example of the application of the simulation tool for synthetic networks while varying the counter-party choice policies and parameters of nodes and edges, and (ii) an investigation of the computational complexity and scalability of the simulation scheme.
