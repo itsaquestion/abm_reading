@@ -1,0 +1,16 @@
+---
+title: "(JASSS 2018) A Minimal Agent-Based Model Reproduces the Overall Topology of Interbank Networks"
+author: "Weicheng Li"
+date: "2024-04-02"
+categories: [jasss,  Interbank Markets, Complex Networks ]
+#image: "image.jpg"
+draft: false
+---
+
+# A Minimal Agent-Based Model Reproduces the Overall Topology of Interbank Networks
+
+## Abstract
+
+The description of the empirical structure of interbank networks constitutes an important field of study since network theory can be used as a powerful tool to assess the resilience of financial systems and their robustness against failures. On the other hand, the development of reliable models of interbank market structure is relevant as they can be used to analyze systemic risk in the absence of transaction data or to test statistical hypotheses regarding network properties. Based on a detailed data-driven analysis of bank positions (assets and liabilities) taken from the Bankscope database, we here develop a minimal, stochastic, agent-based network model that accounts for the basic topology of interbank networks reported in the literature. The main assumption of our model is that loans between banks attempt to compensate assets and liabilities at each time step, and the model renders networks comparable with those observed in empirical studies. In particular, our model is able to qualitatively reproduce degree distributions, the distribution of the number of transactions, the distribution of exposures, the correlations with nearest-neighbor out-degree, and the clustering coefficient. As our simple model captures the overall structure of empirical networks, it can thus be used as a null model for testing hypotheses relative to other specific properties of interbank networks.
+
+对银行间网络的实证结构进行描述是一个重要的研究领域,因为网络理论可以用作评估金融系统韧性以及抵御失败的稳健性的有力工具。另一方面,开发可靠的银行间市场结构模型也很重要,因为在缺乏交易数据的情况下,它们可以用来分析系统性风险,或者用来检验关于网络属性的统计假设。基于对Bankscope数据库中银行头寸(资产和负债)的详细数据驱动分析,我们在此开发了一个最小的、随机的、基于主体的网络模型,该模型解释了文献中报道的银行间网络的基本拓扑结构。我们模型的主要假设是,银行之间的贷款试图在每个时间步补偿资产和负债,该模型生成的网络与实证研究中观察到的网络相当。特别地,我们的模型能够定性地再现度分布、交易数量分布、风险敞口分布、与最近邻居出度的相关性以及聚类系数。由于我们的简单模型捕捉到了实证网络的总体结构,因此它可以用作检验与银行间网络的其他特定属性相关的假设的零模型。

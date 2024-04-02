@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2018) Social Norms and the Dominance of Low-Doers"
+author: "Weicheng Li"
+date: "2024-04-02"
+categories: [jasss, Social Norms, Game Theory ]
+#image: "image.jpg"
+draft: false
+---
+
+# Social Norms and the Dominance of Low-Doers
+
+## Abstract
+
+Social norms play a fundamental role in holding groups together. The rationale behind most of them is to coordinate individual actions into a beneficial societal outcome. However, there are cases where pro-social behavior within a community seems, to the contrary, to cause inefficiencies and suboptimal collective outcomes. An explanation for this is that individuals in a society are of different types and their type determines the norm of fairness they adopt. Not all such norms are bound to be beneficial at the societal level. When individuals of different types meet a clash of norms can arise. This, in turn, can determine an advantage for the “wrong” type. We show this by a game-theoretic analysis in a very simple setting. To test this result - as well as its possible remedies - we also devise a specific simulation model. Our model is written in NETLOGO and is a first attempt to study our problem within an artificial environment that simulates the evolution of a society over time.
