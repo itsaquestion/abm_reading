@@ -1,0 +1,13 @@
+---
+title: "(JASSS 2018) Innovation and Employment: An Agent-Based Approach"
+author: "Weicheng Li"
+date: "2024-04-01"
+categories: [jasss, Innovation, Automation, Employment ]
+#image: "image.jpg"
+draft: false
+---
+
+# Innovation and Employment: An Agent-Based Approach
+
+## Abstract
+While the effects of innovation on employment have been a controversial issue in economic literature for several years, this economic puzzle is particularly relevant nowadays. We are witnessing tremendous technological developments which threaten to disrupt the labour market, due to their potential for significantly automating human labour. As such, this paper presents a qualitative study of the dynamics underlying the relationship between innovation and employment, using an agent-based model developed in Python. The model represents an economy populated by firms able to perform either Product Innovation (leading to the discovery of new tasks, which require human labour) or Process Innovation (leading to the automation of tasks previously performed by humans). The analysis led to three major conclusions, valid in this context. The first takeaway is that the Employment Rate in a given economy is dependent on the automation potential of the tasks in that economy and dependent on the type of innovation performed by firms in that economy (with Product Innovation having a positive effect on employment and Process Innovation having a negative effect). Second, in any given economy, if firms’ propensity for product and process innovation, as well as the automation potential of their tasks are stable over time, the Employment Rate in that economy will tend towards stability over time. The third conclusion is that higher levels of Process Innovation and lower levels of Product Innovation, lead to a more intense decline of wage shares and to a wider gap between employee productivity growth and wage growth.

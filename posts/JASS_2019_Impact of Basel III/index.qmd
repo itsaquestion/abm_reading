@@ -2,7 +2,7 @@
 title: "(JASSS 2019) A Double-Layer Network and the Contagion Mechanism of China's Financial Systemic Risk"
 author: "Weicheng Li"
 date: "2024-04-01"
-categories: [jasss,Systemic Risk, Risk Contagion, Double-Layer Network, Interbank Business, Cross-Shareholding]
+categories: [jasss, Systemic Risk, Risk Contagion, Double-Layer Network, Interbank Business, Cross-Shareholding]
 #image: "image.jpg"
 draft: false
 ---

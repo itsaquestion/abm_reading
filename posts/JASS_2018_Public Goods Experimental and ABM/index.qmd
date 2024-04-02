@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2018) The Role of Heterogeneity and the Dynamics of Voluntary Contributions to Public Goods: An Experimental and Agent-Based Simulation Analysis"
+author: "Weicheng Li"
+date: "2024-04-01"
+categories: [jasss,  Crowdsourcing, Task Structure, Bounded Rationality, TCPE Framework, NK Model]
+#image: "image.jpg"
+draft: false
+---
+
+# The Role of Heterogeneity and the Dynamics of Voluntary Contributions to Public Goods: An Experimental and Agent-Based Simulation Analysis
+
+## Abstract
+
+This paper examines the role of heterogeneous agents in the study of voluntary contributions to public goods. A human-subject experiment was conducted to classify agent types and determine their effects on contribution levels. Data from the experiment was used to build and calibrate an agent-based simulation model. The simulations display how different compositions of agent preference types affect the contribution levels. Findings indicate that the heterogeneity of cooperative preferences is an important determinant of a population’s contribution pattern.

@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2018) Task Structure, Individual Bounded Rationality and Crowdsourcing Performance: An Agent-Based Simulation Approach"
+author: "Weicheng Li"
+date: "2024-04-01"
+categories: [jasss,  Crowdsourcing, Task Structure, Bounded Rationality, TCPE Framework, NK Model]
+#image: "image.jpg"
+draft: false
+---
+
+# Innovation and Employment: An Agent-Based Approach
+
+## Abstract
+
+Crowdsourcing is increasingly employed by enterprises outsourcing certain internal problems to external boundedly rational problem solvers who may be more efficient. However, despite the relative abundance of crowdsourcing research, how the matching relationship between task types and solver types works is far from clear. This study intends to clarify this issue by investigating the interplay between task structure and individual bounded rationality on crowdsourcing performance. For this purpose, we have introduced interaction relationships of task decisions to define three differently structured tasks, i.e., local tasks, small-world tasks and random tasks. We also consider bounded rationality, considering two dimensions i.e., bounded rationality level used to distinguish industry types, and bounded rationality bias used to differentiate professional users from ordinary users. This agent-based model (ABM) is constructed by combining NK fitness landscape with the TCPE (Task-Crowd-Process-Evaluation), a framework depicting crowdsourcing processes, to simulate the problem-solving process of tournament-based crowdsourcing. Results would suggest that under the same task complexity, random tasks are more difficult to complete than local tasks. This is evident in emerging industries, where the bounded rationality level of solvers is generally low, regardless of the type of solvers, local tasks always perform best and random tasks worst. However, in traditional industries, where the bounded rationality level of solvers is generally higher, when solvers are ordinary users, local tasks perform best, followed by small-world and then random tasks. When solvers are more expert, random tasks perform best, followed by small-world and then local tasks, but the gap between these three tasks in crowdsourcing performance is not immediately obvious. When solvers are professional, random tasks perform best, followed by small-world and then local tasks, and the gap between these three tasks in crowdsourcing performance is obvious.

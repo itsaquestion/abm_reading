@@ -1,0 +1,14 @@
+---
+title: "(JASSS 2018) Agent-Based Models of Gender Inequalities in Career Progression"
+author: "Weicheng Li"
+date: "2024-04-01"
+categories: [jasss, Gender Inequalities, Career Preferences, Social Learning, Evolution]
+#image: "image.jpg"
+draft: false
+---
+
+# Agent-Based Models of Gender Inequalities in Career Progression
+
+## Abstract
+
+An agent-based simulation framework is presented that provides a principled approach for investigating gender inequalities in professional hierarchies such as universities or businesses. Populations of artificial agents compete for promotion in their chosen professions, leading to emergent distributions that can be matched to real-life scenarios, and allowing the influence of socially or genetically acquired career preferences to be explored. The aim is that such models will enable better understanding of how imbalances emerge and evolve, facilitate the identification of specific signals that can indicate the presence or absence of discrimination, and provide a tool for determining how and when particular intervention strategies may be appropriate for rectifying any inequalities. Results generated from a representative series of abstract case studies involving innate or culturally-acquired gender-based ability differences, gender-based discrimination, and various forms of gender-specific career preferences, demonstrate the power of the approach. These simulations will hopefully inspire and facilitate better approaches for dealing with these issues in real life.

@@ -1,0 +1,13 @@
+---
+title: "(JASSS 2019) Impact of Basel III Countercyclical Measures on Financial Stability: An Agent-Based Model"
+author: "Weicheng Li"
+date: "2024-04-01"
+categories: [jasss, Financial Markets, Financial Stability, Value-At-Risk, Countercyclical Regulation, Basel III]
+#image: "image.jpg"
+draft: false
+---
+
+# Impact of Basel III Countercyclical Measures on Financial Stability: An Agent-Based Model
+## Abstract
+
+The financial system is inherently procyclical, as it amplifies the course of economic cycles, and precisely one of the factors that has been suggested to exacerbate this procyclicality is the Basel regulation on capital requirements. After the recent credit crisis, international regulators have turned their eyes to countercyclical regulation as a solution to avoid similar episodes in the future. Countercyclical regulation aims at preventing excessive risk taking during booms to reduce the impact of losses suffered during recessions, for example increasing the capital requirements during the good times to improve the resilience of financial institutions at the downturn. The Basel Committee has already moved forward towards the adoption of countercyclical measures on a global scale: the Basel III Accord, published in December 2010, revises considerably the capital requirement rules to reduce their procyclicality. These new countercyclical measures will not be completely implemented until 2019, so their impact cannot be evaluated yet, and it is a crucial question whether they will be effective in reducing procyclicality and the appearance of crisis episodes such as the one experienced in 2007-08. For this reason, we present in this article an agent-based model aimed at analysing the effect of two countercyclical mechanisms introduced in Basel III: the countercyclical buffer and the stressed VaR. In particular, we focus on the impact of these mechanisms on the procyclicality induced by market risk requirements and, more specifically, by value-at-risk models, as it is a issue of crucial importance that has received scant attention in the modeling literature. The simulation results suggest that the adoption of both of these countercyclical measures improves market stability and reduces the emergence of crisis episodes.
