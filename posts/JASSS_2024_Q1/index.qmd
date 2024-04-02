@@ -1,5 +1,5 @@
 ---
-title: "JASS 2024 Q1: “对价值建模”专刊"
+title: "JASSS 2024 Q1: “对价值建模”专刊"
 author: "Weicheng Li"
 date: "2024-03-25"
 categories: [jasss, issue scan]
@@ -7,7 +7,7 @@ categories: [jasss, issue scan]
 draft: false
 ---
 
-JASS Volume 27(1) published on 31-Jan-2024
+JASSS Volume 27(1) published on 31-Jan-2024
 
 本期是“对价值建模”专刊（Modelling Values in Socio/Technical/Ecological Systems）
 
